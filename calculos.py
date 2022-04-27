@@ -16,7 +16,7 @@ def segundo_grau():
     c = int(input('Qual o valor de c: '))
     # Não mexer no código abaixo
     formula1 = b ** 2 - 4 * a * c
-    print('----------------------------')
+    print('-------RESULTADO-------------')
     print('O valor de delta é', formula1)
     raiz_delta = (formula1 ** (1 / 2))
     print('A raiz de delta é', raiz_delta)
