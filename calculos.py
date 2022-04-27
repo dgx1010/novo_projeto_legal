@@ -16,6 +16,7 @@ def segundo_grau():
     c = int(input('Qual o valor de c: '))
     # Não mexer no código abaixo
     formula1 = b ** 2 - 4 * a * c
+    print('----------------------------')
     print('O valor de delta é', formula1)
     raiz_delta = (formula1 ** (1 / 2))
     print('A raiz de delta é', raiz_delta)
@@ -24,7 +25,7 @@ def segundo_grau():
     x2 = (-b - raiz_delta) / (2 * a)
     print('O segundo valor de x é igual a', x2)
     print ('A soma das raízes é', x1+x2)
-    
+    print('----------------------------')
 def lancamento_obliquo():
   a= input('A velocidade está em metros por segundos?:  ')
   if a=='sim':
